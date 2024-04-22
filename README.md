@@ -1,6 +1,10 @@
 ### Como crear un proyecto express desde cero
 
 ```sh
+$ docker run -d -p 27017:27017 --name mongo -v mongo_data:/data/db -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=root mongo:latest
+```
+
+```sh
 $ npm init --yes
 ```
 
